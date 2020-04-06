@@ -19,20 +19,19 @@
 
     <header>
       <img id="headerImage" src="/img/m3r71nBanner.png" alt="M3R71N">
-      <h1>by Merlin Thomas Lee</h1>
+      <h1><span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+      <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script> by Merlin Thomas Lee</h1>
     </header>
 
     <nav>
-<span style="font-size:72px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
 
     </nav>
 
