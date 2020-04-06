@@ -14,7 +14,7 @@ body {
 #navIcon{
   position: absolute;
   right: 5%;
-  top:
+  cursor: pointer;
 }
 
 header{
