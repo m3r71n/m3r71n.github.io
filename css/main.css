@@ -3,3 +3,7 @@ body {
   font-family: sans-serif;
   background-color: rgb( 47, 45, 47);
 }
+
+#headerImage{
+  width: 100%;
+}
