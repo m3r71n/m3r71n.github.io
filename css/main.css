@@ -32,6 +32,17 @@ header{
   margin-block-end: .2em;
 }
 
+.cvTables{
+  text-align: left;
+  vertical-align: top;
+}
+
+.cvYears{
+  text-align: left;
+  vertical-align: top;
+  padding-right: 1em;
+}
+
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
