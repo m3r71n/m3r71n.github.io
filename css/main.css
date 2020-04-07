@@ -23,6 +23,15 @@ header{
   margin: auto;
 }
 
+.cvDiv{
+  margin-bottom: 5%;
+
+}
+
+.cvHeadings{
+  margin-block-end: .2em;
+}
+
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
