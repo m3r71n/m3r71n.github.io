@@ -18,6 +18,10 @@ body {
   font-size: 72px;
 }
 
+#footerText{
+  text-align: center;
+}
+
 header{
   width: 100%;
   margin: auto;
