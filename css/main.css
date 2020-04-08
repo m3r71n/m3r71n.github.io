@@ -61,7 +61,7 @@ main{
 .cvYears{
   text-align: left;
   vertical-align: top;
-  padding-right: 1em;
+  width: 80px;
 }
 
 a:link {
