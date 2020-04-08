@@ -47,6 +47,57 @@ header{
   padding-right: 1em;
 }
 
+a:link {
+  text-decoration: none;
+  color: rgb(254, 204, 47);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(254, 204, 47);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(151, 20, 151);
+}
+
+a:active {
+  text-decoration: underline;
+  color: rgb(223,223,223);
+}
+
+.purpleh2{
+  position: relative;
+  top: 47px;
+  left: 1px;
+  color: rgb(151, 20, 151);
+}
+
+.yellowh2{
+  position: relative;
+  z-index: -1;
+  color: rgb(254, 204, 47);
+}
+
+.purpleh1{
+  position: relative;
+  left: 2px;
+  color: rgb(151, 20, 151);
+}
+
+.yellowh1{
+  position: relative;
+  top: -57px;
+  z-index: -1;
+  color: rgb(254, 204, 47);
+}
+
+#profTitle{
+  position: relative;
+  top: -57px;
+}
+
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
