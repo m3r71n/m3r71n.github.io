@@ -111,6 +111,10 @@ img {vertical-align: middle;}
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <a href="index.html">Home</a>
+    <a href="photography.html">Photography</a>
+    <a href="sculpture.html">Sculpture</a>
+    <a href="timeBased.html">Time Based</a>
+    <a href="worksOnPaper.html">Works On Paper</a>
     <a href="About.html">About</a>
     <a href="Contact.html">Contact</a>
   </div>
@@ -124,14 +128,8 @@ img {vertical-align: middle;}
     </header>
 
     <nav>
-      <script>
-      function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-      }
+      <script src="scripts/navScript.js" >
 
-      function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-      }
       </script>
     </nav>
 
@@ -173,33 +171,8 @@ img {vertical-align: middle;}
       </div>
 
 
-      <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+      <script src="scripts/homSlides.js" >
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-      }
       </script>
 
 
