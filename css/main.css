@@ -6,6 +6,11 @@ body {
   margin: auto;
 }
 
+iframe {
+  display: block;
+  margin: auto;
+}
+
 #headerImage{
   width: 100%;
   height: auto;
