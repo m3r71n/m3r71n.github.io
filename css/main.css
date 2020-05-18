@@ -11,6 +11,10 @@ iframe {
   margin: auto;
 }
 
+.workLabels{
+  text-align: center;
+}
+
 #headerImage{
   width: 100%;
   height: auto;
