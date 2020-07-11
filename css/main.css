@@ -98,26 +98,17 @@ a:active {
   top: 47px;
   left: 1px;
   color: rgb(151, 20, 151);
+  text-shadow: (-2px 2 px 0 rgb(254, 204, 47));
 }
 
-.yellowh2{
-  position: relative;
-  z-index: -1;
-  color: rgb(254, 204, 47);
-}
 
 .purpleh1{
   position: relative;
   left: 2px;
   color: rgb(151, 20, 151);
+  text-shadow: (-2px 2 px 0 rgb(254, 204, 47));
 }
 
-.yellowh1{
-  position: relative;
-  top: -57px;
-  z-index: -1;
-  color: rgb(254, 204, 47);
-}
 
 #profTitle{
   position: relative;
