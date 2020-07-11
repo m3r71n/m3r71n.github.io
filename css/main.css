@@ -43,8 +43,7 @@ header{
 }
 
 main{
-  position: relative;
-  top: -50px;
+  padding: 0 2%;
 }
 
 .cvHeadingsPurple{
