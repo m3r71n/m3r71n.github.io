@@ -94,7 +94,7 @@ a:active {
 
 .purpleh2{
   color: rgb(151, 20, 151);
-  text-shadow: (-2px 2px 0 rgb(254, 204, 47));
+  text-shadow: -2px 2px 0 rgb(254, 204, 47);
 }
 
 
