@@ -47,13 +47,13 @@ main{
 }
 
 .cvHeadingsPurple{
-  margin-block-end: .2em;
   color: rgb(151, 20, 151);
   text-shadow: -1px 1px 0 rgb(254, 204, 47);
   letter-spacing: .125em;
 }
 
 .cvTables{
+  margin-block-end: 2em;
   text-align: left;
   vertical-align: top;
 }
