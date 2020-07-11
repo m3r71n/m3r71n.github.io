@@ -29,7 +29,7 @@ iframe {
 
 #footerText{
   text-align: center;
-  margin-top: 6%;
+  margin: 3% 0;
 }
 
 header{
@@ -40,6 +40,11 @@ header{
 
 main{
   padding: 0 2%;
+}
+
+footer{
+  margin-top: 6%;
+  border-top: solid 1px;
 }
 
 .cvHeadingsPurple{
