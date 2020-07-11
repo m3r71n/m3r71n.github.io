@@ -94,17 +94,12 @@ a:active {
 }
 
 .purpleh2{
-  position: relative;
-  top: 47px;
-  left: 1px;
   color: rgb(151, 20, 151);
   text-shadow: (-2px 2px 0 rgb(254, 204, 47));
 }
 
 
 .purpleh1{
-  position: relative;
-  left: 2px;
   color: rgb(151, 20, 151);
   text-shadow: -2px 2px 0 rgb(254, 204, 47);
 }
