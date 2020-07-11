@@ -37,16 +37,13 @@ header{
   margin: auto;
 }
 
-.cvDiv{
-  margin-bottom: -1%;
-
-}
 
 main{
   padding: 0 2%;
 }
 
 .cvHeadingsPurple{
+  margin-block-end: .5em;
   color: rgb(151, 20, 151);
   text-shadow: -1px 1px 0 rgb(254, 204, 47);
   letter-spacing: .125em;
