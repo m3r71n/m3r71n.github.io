@@ -48,17 +48,8 @@ main{
 
 .cvHeadingsPurple{
   margin-block-end: .2em;
-  position: relative;
-  top: 40px;
-  left: 1px;
   color: rgb(151, 20, 151);
-}
-
-.cvHeadingsYellow{
-  margin-block-end: .2em;
-  position: relative;
-  z-index: -1;
-  color: rgb(254, 204, 47);
+  text-shadow: -2px 2px 0 rgb(254, 204, 47);
 }
 
 .cvTables{
