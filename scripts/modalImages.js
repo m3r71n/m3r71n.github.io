@@ -1,15 +1,16 @@
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementsByClassName("myImg");
-var modalImg = document.getElementById("img01");
+var img = $('.myImg');
+var modalImg = $("#img01");
 var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
