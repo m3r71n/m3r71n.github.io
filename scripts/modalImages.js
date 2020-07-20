@@ -5,7 +5,7 @@ var modal = document.getElementById('myModal');
 var img = $('.modalImg');
 var modalImg = $("#img01");
 var captionText = document.getElementById("caption");
-$('.myImg').click(function(){
+$('.modalImg').click(function(){
     modal.style.display = "block";
     var newSrc = this.src;
     modalImg.attr('src', newSrc);
