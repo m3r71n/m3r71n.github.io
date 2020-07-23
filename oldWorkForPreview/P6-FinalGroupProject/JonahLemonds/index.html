@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: skyblue;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 2px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Florida</h1>
+    <p>"The Sunshine State"</p>
+    </div>
+
+<div class="topnav">
+  <a href=https://www.google.com/destination/map/topsights?q=best+things+to+do+in+florida&rlz=1C1SQJL_enUS769US769&site=search&output=search&dest_mid=/m/02xry&sa=X&ved=2ahUKEwiLyYje-d3gAhUL3YMKHU8zD60Q6tEBKAQwAHoECAEQBw"">Visit</a>
+  <a href="https://www.onlyinyourstate.com/florida/restaurant-bucket-list-fl/">Food</a>
+  <a href=Contact.html>Contact Us</a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Walt Disney World</h2>
+      <h5>Last updated 2/28/2019</h5>
+       <img src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/12/01/104874708-GettyImages-529384106.jpg?v=1512164426" height="350px" width="400px" \>
+      <p>What is Disney?</p>
+      <p>Walt Disney World in Orlando, Florida, is most often associated with the Magic Kingdom. That theme park was the first, but now there are several others and the number of hotels has expanded many times over. Walt Disney World has other entertainment options and activities that make it a popular destination even for people who really like theme parks or rides.</p>
+    </div>
+    <div class="card">
+      <h2>Miami Beach</h2>
+      <h5>Last updated 2/27/2019</h5>
+      <img src="https://odis.homeaway.com/odis/destination/a8157c9d-2f4d-4c0c-8c41-5650ad361bfe.hw1.jpg" height="350px" width="400px" \>
+      <p>Why Miami Beach?</p>
+      <p>Miami Beach is a south Florida island city, connected by bridges to mainland Miami. Wide beaches stretch from North Shore Open Space Park, past palm-lined Lummus Park to South Pointe Park. The southern end, South Beach, is known for its international cachet with models and celebrities, and its early-20th-century architecture in the Art Deco Historic district with pastel-colored buildings, especially on Ocean Drive.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>History</h2>
+      <img src="http://www.sarasotahistoryalive.com/clientuploads/directory/history/articles/colony-east-florida.jpg" height="350px" width="348px" \>
+      <p>Florida is the southeasternmost U.S. state, with the Atlantic on one side and the Gulf of Mexico on the other. It has hundreds of miles of beaches. The city of Miami is known for its Latin-American cultural influences and notable arts scene, as well as its nightlife, especially in upscale South Beach. Orlando is famed for theme parks, including Walt Disney World.</p>
+        <p>Florida, which joined the union as the 27th state in 1845, is nicknamed the Sunshine State and known for its balmy climate and natural beauty. Spanish explorer Juan Ponce de Leon, who led the first European expedition to Florida in 1513, named the state in tribute to Spain’s Easter celebration known as “Pascua Florida,” or Feast of Flowers. </p>
+        <p> During the first half of the 1800s, U.S. troops waged war with the region’s Native American population. During the Civil War, Florida was the third state to secede from the Union. Beginning in the late 19th century, residents of Northern states flocked to Florida to escape harsh winters. In the 20th century, tourism became Florida’s leading industry and remains so today, attracting millions of visitors annually. Florida is also known for its oranges and grapefruit, and some 80 percent of America’s citrus is grown there.</p>
+        <p>Spanish explorer Pedro Menendez de Avilés established the first permanent European settlement in the United States at St. Augustine.</p>
+    </div>
+   
+      <h3>Follow us </h3>
+      <ol>
+   
+    <li><a href="https://www.instagram.com/floridaspots_/"> Instagram - @floridaspots_</a> </li>
+    <li><a href="https://twitter.com/floridaspots"> Twitter - @floridaspots</a> </li>
+</ol>
+      
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Copyright State of Florida</h2>
+</div>
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+</body>
+</html>
