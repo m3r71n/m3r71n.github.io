@@ -277,8 +277,6 @@ img {vertical-align: middle;}
      transition: 0.3s;
      width: 250px;
   }
-  .ImgThumbnail:nth-of-type(1) {
-  }
   .modal {
      display: none;
      position: fixed;
@@ -326,4 +324,7 @@ img {vertical-align: middle;}
      .modalImage {
         width: 100%;
      }
+  }
+
+  .ImgThumbnail:nth-of-type(1) {
   }
