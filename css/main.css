@@ -264,7 +264,9 @@ img {vertical-align: middle;}
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-    width: 300px;
+    width: 30%;
+    margin: 1.66%;
+    float: left;
   }
 
   .myImages:hover {
