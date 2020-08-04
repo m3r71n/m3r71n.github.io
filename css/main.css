@@ -381,6 +381,7 @@ img {vertical-align: middle;}
     .myImages{
       width: 90%;
       margin: 1.66% Auto;
+      display: flex;
       justify-content: center;
     }
   }
